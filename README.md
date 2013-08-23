@@ -1,6 +1,13 @@
 # Turnip::ParallelTests
 
-TODO: Write a gem description
+Helper [parallel_tests](https://github.com/grosser/parallel_tests) for [turnip](https://github.com/jnicklas/turnip).
+
+## Motivation
+
+I wanted to run a turnip project using `parallel_rspec`.
+However, `parallel_rspec` didn't find `.feature` files. (if specify option `--pattern .feature`, they are ignored when no one is `spec/**/*_spec.rb`)
+
+So, I made this gem that will run if there is `_spec.rb` or `.feature` file to specified directories.
 
 ## Installation
 
@@ -18,12 +25,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `--type turnip` (or `-t turnip`) to the commands:
 
-## Contributing
+    $ parallel_rspec -n 3 --type turnip spec
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## License
+
+see `LICENSE.txt`
