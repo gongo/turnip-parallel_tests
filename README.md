@@ -3,7 +3,6 @@
 Helper [parallel_tests](https://github.com/grosser/parallel_tests) for [turnip](https://github.com/jnicklas/turnip).
 
 [![Build Status](https://travis-ci.org/gongo/turnip-parallel_tests.png?branch=master)](https://travis-ci.org/gongo/turnip-parallel_tests)
-
 [![Coverage Status](https://coveralls.io/repos/gongo/turnip-parallel_tests/badge.png)](https://coveralls.io/r/gongo/turnip-parallel_tests)
 
 
